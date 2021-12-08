@@ -9,7 +9,7 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">-->
 <!--===============================================================================================-->
 	<!--<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">-->
 <!--===============================================================================================-->
@@ -42,7 +42,6 @@
 						<button class="contact100-form-btn">
 							<span>
 								انتقال به تلگرام
-								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
 							</span>
 						</button>
 					</div>
@@ -57,7 +56,7 @@
 <script>
   let params = new URLSearchParams(location.search);
 document.write(params.get('id'));
-  document.getElementById("change").href="tg://Harfinobot?start="+params.get('id'));
+  document.getElementById("change").href="tg://Harfinobot?start="+params.get('id');
 </script>
 <!--===============================================================================================-->
 	<!--<script src="vendor/jquery/jquery-3.2.1.min.js"></script>-->
