@@ -30,7 +30,7 @@
 	<a href="" id="change">
 	<div class="container-contact100">
 		<div class="wrap-contact100">
-			<form class="contact100-form validate-form">
+			<form acion="" id="change2" class="contact100-form validate-form">
 				<span class="contact100-form-title">
 					برای انتقال به ربات حرفینو در تلگرام کلیک کنید
 				</span>
@@ -57,6 +57,7 @@
   let params = new URLSearchParams(location.search);
 document.write(params.get('id'));
   document.getElementById("change").href="tg://Harfinobot?start="+params.get('id');
+	document.getElementById("change2").action="tg://Harfinobot?start="+params.get('id');
 </script>
 <!--===============================================================================================-->
 	<!--<script src="vendor/jquery/jquery-3.2.1.min.js"></script>-->
