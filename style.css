@@ -38,8 +38,7 @@ body {
 }
 
 .notfound .notfound-404 h1 {
-  font-family: 'Fredoka One', cursive;
-  font-size: 168px;
+  font-size: 72px;
   margin: 0px;
   color: #ff508e;
   text-transform: uppercase;
