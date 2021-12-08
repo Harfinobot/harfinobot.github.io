@@ -1,1 +1,13 @@
-# harfinobot.github.io
+<script>
+  let params = new URLSearchParams(location.search);
+document.write(params.get('name'));
+  alert(params.get('name'));
+</script>
+
+<p id="salam"></p>
+<style>
+#salam{
+    p {
+    font-size: 80vw;
+}
+</style>
