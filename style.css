@@ -1,6 +1,8 @@
+@import url('https://v1.fontapi.ir/css/Mikhak:900');
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Mikhak' !important;
 }
 
 body {
